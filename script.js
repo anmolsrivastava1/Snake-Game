@@ -299,6 +299,7 @@ function over(){
                     //
                 }
                 else{
+                    directionAudio.play();
                     swipedir=swipedir1
                 }
             }
