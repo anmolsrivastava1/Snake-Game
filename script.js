@@ -295,7 +295,7 @@ function over(){
                     swipedir1 = (distY < 0)? 'UP' : 'DOWN' // if dist traveled is negative, it indicates up swipe
                 }
                 if(swipedir=='LEFT' && swipedir1=='RIGHT' ||swipedir=='RIGHT' && swipedir1=='LEFT' 
-                || swipedir=='UP' && swipedir1=='DOWN' || swipedir=='DOWN' && swipedir1=='UP'){
+                || swipedir=='UP' && swipedir1=='DOWN' || swipedir=='DOWN' && swipedir1=='UP' || swipedir1=='none'){
                     //
                 }
                 else{
